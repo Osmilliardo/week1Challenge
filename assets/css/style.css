@@ -42,10 +42,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -92,7 +88,6 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    /* clear: both; */
     float: right;
     width: 20%;
     height: 100%;
@@ -125,4 +120,8 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+p {
+    font-size: 16px;
 }
