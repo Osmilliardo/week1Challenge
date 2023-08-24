@@ -1,3 +1,5 @@
+/* removed all divs and replaced with semantic elements where applicable
+    renamed and reorganized/consolidated attributes to effect multiple sections */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
@@ -67,6 +70,8 @@ a {
     margin-left: 20px;
 }
 
+/* .contentSections refers to the main parts of the site under the large image
+    the next 3 selectors manipulate the sections as a whole, the images associated with each section and the headers that go with each as well */
 .contentSections {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,6 +90,7 @@ a {
     font-size: 36px;
 }
 
+/* .benefits and .benefit are both the sidebar with extra information as to why to use Horiseon's services */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -95,6 +101,7 @@ a {
     background-color: #2589bd;
 }
 
+/* like with the .contentSections, these manipulate the sections, the images and headers associated with the sidebar sections */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
